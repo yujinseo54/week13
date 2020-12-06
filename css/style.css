@@ -1,0 +1,95 @@
+@-webkit-keyframes longline{
+
+  from {opacity: 0%;
+     }
+  to {opacity: 100%;
+    }
+}
+
+
+@-webkit-keyframes lightdark{
+
+  0% {transform: scale(1,1);}
+  
+  50% {transform: scale(1.1,1.1);}
+
+  100% {transform: scale(1,1);}
+}
+
+
+
+.bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.title  {
+    position: absolute;
+    top: 5%;
+    left: 11%;
+    width: 16%;
+}
+
+.light {
+    position: absolute;
+    top: 6%;
+    left: 47%;
+    width: 6%;
+    animation-name: lightdark;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;}
+
+.dark {
+    position: absolute;
+    top: 50%;
+    left: 64%;
+    width: 6%;
+    animation-name: lightdark;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;}
+
+.l1 {
+	position: absolute;
+    width: 35.2%;
+    top: 34.3%;
+    left: 10%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.l2 {
+	position: absolute;
+    width: 72%;
+    top: 76%;
+    left: 11%;
+    opacity: 0%;
+    animation-name: longline;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.c1 {
+    position: absolute;
+    width: 91%;
+    top: 3%;
+    left: 4.8%;
+    display: none;
+}
+
+.c2 {
+    position: absolute;
+    width: 91%;
+    top: 3%;
+    left: 4.8%;
+    display: none;
+}
+
